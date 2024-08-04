@@ -2,7 +2,6 @@
 *.so
 *.dll
 *.a
-*.txt
 *.webp
 *.jpeg
 .Rproj.user
