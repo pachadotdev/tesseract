@@ -218,7 +218,7 @@ Textract [documentation](https://aws.amazon.com/blogs/opensource/using-r-with-am
 
 ![tealbook](../man/figures/tealbook.png)
 
-Here is the first element of the list retured by Textract:
+Here is the first element of the list returned by Textract:
 
 ```r
 # List of 13
