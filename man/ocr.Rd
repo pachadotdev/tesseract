@@ -20,7 +20,7 @@ language string which will be passed to \code{\link[=tesseract]{tesseract()}}.}
 \description{
 Extract text from an image. Requires that you have training data for the language you
 are reading. Works best for images with high contrast, little noise and horizontal text.
-See \href{https://github.com/tesseract-ocr/tesseract/wiki/ImproveQuality}{tesseract wiki} and
+See \href{https://github.com/tesseract-ocr/tessdoc}{tesseract wiki} and
 our package vignette for image preprocessing tips.
 }
 \details{
@@ -46,7 +46,7 @@ curl::curl_download("https://cran.r-project.org/doc/manuals/r-release/R-intro.pd
 orig <- pdftools::pdf_text("R-intro.pdf")[1]
 
 # Render pdf to png image
-img_file <- pdftools::pdf_convert("R-intro.pdf", format = 'tiff', pages = 1, dpi = 400)
+img_file <- pdftools::pdf_convert("R-intro.pdf", format = "tiff", pages = 1, dpi = 400)
 unlink("R-intro.pdf")
 
 # Extract text from png image
