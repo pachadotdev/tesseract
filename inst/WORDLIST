@@ -3,6 +3,7 @@ config
 EPEL
 github
 greyscale
+Greenbook
 hOCR
 HOCR
 https
@@ -19,11 +20,19 @@ opensource
 ORCID
 pdftools
 png
+polytonicgreek
+Polytonic
 rmarkdown
 spanish
 Sepulveda
+tealbook
 tessdata
 toc
+Tealbook
+Tesseract's
+Textract
+Textract's
+Tidyverse
 utrecht
 VignetteEncoding
 VignetteEngine
